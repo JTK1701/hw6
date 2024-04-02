@@ -45,7 +45,7 @@ public class Main {
         }
         System.out.println(" ");
         System.out.println("9 задача");
-        int money9 = 29000;
+        float money9 = 29000f;
         for (int i = 1; i <= 12; i++) {
             System.out.println("Месяц - " + i + ", сумма накоплений равна " + money9 + " рублей.");
             money9 += money9/100;
