@@ -46,19 +46,19 @@ public class Main {
         System.out.println(" ");
         System.out.println(" ");
         System.out.println("8 задача");
-        int money = 29000;
+        int money = 0;
         for (int i = 1; i <= 12; i++) {
-            System.out.println("Месяц - " + i + ", сумма накоплений равна " + money + " рублей.");
             money += 29000;
+            System.out.println("Месяц - " + i + ", сумма накоплений равна " + money + " рублей.");
         }
         System.out.println(" ");
         System.out.println(" ");
         System.out.println("9 задача");
-        float money9 = 29000f;
+        float money9 = 0f;
         for (int i = 1; i <= 12; i++) {
-            System.out.println("Месяц - " + i + ", сумма накоплений равна " + money9 + " рублей.");
-            money9 += money9/100;
             money9 += 29000;
+            money9 += money9/100;
+            System.out.println("Месяц - " + i + ", сумма накоплений равна " + money9 + " рублей.");
         }
         System.out.println(" ");
         System.out.println(" ");
